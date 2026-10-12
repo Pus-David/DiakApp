@@ -38,6 +38,6 @@ namespace DiakApp
         {
             return $"ˇ{Nev} ({Osztaly}) - {Pontszam} pont";
         }
-
+ 
     }
 }
