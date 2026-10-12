@@ -28,5 +28,16 @@ namespace DiakApp
                 }
             }
         }
+        public Diak (string nev, string osztaly, int pontszam)
+        {
+            Nev = nev;
+            Osztaly = osztaly;
+            Pontszam = pontszam;
+        }
+        public override string ToString()
+        {
+            return $"ˇ\"{Nev} ({Osztaly}) - {Pontszam}"
+        }
+
     }
 }
