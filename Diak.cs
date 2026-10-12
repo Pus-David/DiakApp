@@ -36,7 +36,7 @@ namespace DiakApp
         }
         public override string ToString()
         {
-            return $"ˇ\"{Nev} ({Osztaly}) - {Pontszam} pont";
+            return $"ˇ{Nev} ({Osztaly}) - {Pontszam} pont";
         }
 
     }
